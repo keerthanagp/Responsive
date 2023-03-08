@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,600;1,700&family=Shantell+Sans:wght@300&display=swap');
+
+ *{
+      font-family: 'Golos Text', sans-serif;    
+       margin: 0;
+       padding: 0;
+       cursor: pointer;
+   }
+.navbar ul li{
+    float: left;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 40rem;
+    list-style: none;
+}
+nav{
+    background-color: black;
+}
+.main{
+    line-height: 5rem;
+    color: white;
+    margin: 300px;
+    margin-left: 50px;
+}
+.main h1{
+    font-size: 5rem;
+    margin: 10px;
+}
+.main h4{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px;
+}
+.about{
+    display: flex;
+    margin: 10rem;
+    padding: 20px;
+}
+.about .image img{
+    width: 25rem;
+    height: 30rem;
+    padding: 25px;
+}
+.button button{
+    position: relative;
+    bottom: 10rem; left: 25rem;
+}
+.content p{
+     margin: 25px;
+     text-align: center;
+     padding: 25px;
+     border: 2px solid black;
+     width:100%;
+     height: 8rem;
+     background-color: black;
+     color: white;
+     font-size: 30px;
+}
+.award{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  padding: 8px;
+    
+}
+.box .content-box{
+    border: 1px solid black;
+   
+}
+.box .content-box h3{
+    font-size: 1rem;
+}
+.box .content-box h4 , p{
+    font-size: 1rem;
+}
+.Poetry{
+    display: flex;
+    margin: 5px;
+    padding: 50px;
+    justify-content: space-around;
+    
+    
+}
+.Poetry li{
+    font-size: 12px;
+    line-height: 15px;
+}
+.footer{
+   display: flex;
+   border: 2px solid black;
+   margin: 10px;
+   padding: 40px;
+   background-color: black;
+   color: white;
+   justify-content: space-around;
+}
+.footer .author h3{
+    font-size: 15px;
+}
+.footer .author p{
+    font-size: 12px;
+}
+.footer .author p .paracolor, .paracolor1{
+    color: grey;
+}
+.footer .author p .parablue{
+    color: rgb(68, 68, 249);
+}
+
+
+
+ 
+
+
+
+ 
+
